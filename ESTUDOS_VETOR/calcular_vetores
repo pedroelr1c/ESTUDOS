@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+FAZER UMA PROGRAMA QUE CALCULA A NOTA DE 3 ALUNOS
+USANDO VETORES COM ALOCAÇÃO DINAMICA
+*/
+
+int main(void){
+
+    
+
+    return 0;
+}
