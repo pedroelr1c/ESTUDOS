@@ -6,13 +6,13 @@ int main(void){
     FILE*fp;
     char str[100];
 
-    fp=fopen("arquivo.txt");
+    fp=fopen("arquivo.txt", "wt");
     if(fp==NULL){
         printf("ARQUIVO NAO ENCONTRADO\n");
         return 1;
     }
 
-    fscanf(fp,%s,srt);
+    fscanf(fp,"%s",str);
     printf("%s",str);
     fclose(fp);
 
